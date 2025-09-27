@@ -7,8 +7,7 @@ export const authOptions : AuthOptions  = {
 // import email from './../node_modules/next-auth/core/lib/email/signin.d';
 //    import { User } from './../node_modules/next-auth/core/types.d';
  pages :{
-    // signIn:"/login"
-    signIn:process.env.NEXT_PUBLIC_BASE_URL + '/login'
+    signIn:"/login"
 },
  providers : [
        CredentialsProvider({
