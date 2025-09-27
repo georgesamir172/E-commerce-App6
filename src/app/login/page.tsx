@@ -69,7 +69,7 @@ const Login = () => {
           position:'top-center',
           duration:3000
         })
-        // window.location.href = res.url || "/"
+        window.location.href = res.url || "/"
       }else{
         toast.error(res?.error,{
           position:'top-center',
